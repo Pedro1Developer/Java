@@ -8,8 +8,6 @@ public class LoopFor {
 			System.out.println("i tem valor: " + i);
 		}
 		
-		//System.out.println(i);
-
 		for (int i=5; i > 0; i--){
 			System.out.println("i tem valor: " + i);
 		}

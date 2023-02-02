@@ -20,7 +20,7 @@ public class Exer05 {
             
             opcao = scan.nextByte();
             
-            if (opcao == 1){ //adicionar compromisso
+            if (opcao == 1){
                 
                 boolean mesValido = false;
                 int mes = 0;
@@ -63,7 +63,7 @@ public class Exer05 {
                 System.out.println("Digite o compromisso");
                 compromissos[mes][dia][hora] = scan.next();
                 
-            } else if (opcao == 2){ //verificar compromisso
+            } else if (opcao == 2){ 
                 
                 boolean mesValido = false;
                 int mes = 0;

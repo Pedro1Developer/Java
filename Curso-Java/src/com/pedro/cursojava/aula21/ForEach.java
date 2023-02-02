@@ -26,7 +26,6 @@ public class ForEach {
 			System.out.println(nota);
 		}
 		
-		//exemplo 02
 		System.out.println("Exemplo com arrays multidimensionais");
 		double[][] notasAlunos = new double[3][4];
 

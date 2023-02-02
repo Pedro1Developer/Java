@@ -20,7 +20,7 @@ public class Exer06 {
         
         while (!ganhou){
             
-            if (jogada % 2 == 1){ //jogador 1
+            if (jogada % 2 == 1){ 
                 
                 System.out.println("Vez do jogador 1. Escolha linha e coluna (1-3).");
                 sinal = 'X';
@@ -56,12 +56,11 @@ public class Exer06 {
             coluna--;
             if (jogoVelha[linha][coluna] == 'X' || jogoVelha[linha][coluna] == 'O'){
                 System.out.println("Posição já usada, tente novamente");
-            } else { //jogada válida
+            } else { 
                 jogoVelha[linha][coluna] = sinal;
                 jogada++;
             }
             
-            //imprimir tabuleiro
             for (int i=0; i<jogoVelha.length; i++){
                 for (int j=0;j<jogoVelha[i].length; j++){
                     System.out.print(jogoVelha[i][j] + " | ");
@@ -69,7 +68,6 @@ public class Exer06 {
                 System.out.println();
             }
             
-            //verifica se tem ganhador
             if ((jogoVelha[0][0] == 'X' && jogoVelha[0][1] == 'X' && jogoVelha[0][2] == 'X') ||     //linha 1
                     (jogoVelha[1][0] == 'X' && jogoVelha[1][1] == 'X' && jogoVelha[1][2] == 'X') || //linha 2
                     (jogoVelha[2][0] == 'X' && jogoVelha[2][1] == 'X' && jogoVelha[2][2] == 'X') || //linha 3
