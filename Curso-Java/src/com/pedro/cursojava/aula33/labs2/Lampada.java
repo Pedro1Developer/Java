@@ -101,11 +101,12 @@ public class Lampada {
 	public void ligar() {
 		setLigada(true);
 	}
-
+	
 	public void desligar() {
 		setLigada(false);
 	}
 
+	
 	public void mostrarStatus() {
 		if (isLigada()) {
 			System.out.println("A lâmpada está ligada");
