@@ -4,16 +4,16 @@ public class Contador {
 	
 	static int cont;
 	
-	static void incrementar() {
+	public static void incrementar() {
 		cont++;
 	}
 	
-	static void zerar() {
+	public static void zerar() {
 		cont = 0;
 	} 
 	
-	static void retornarContador() {
-		
+	public static int obterValor() {
+		return cont;
 	}
 
 }
