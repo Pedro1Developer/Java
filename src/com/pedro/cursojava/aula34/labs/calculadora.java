@@ -23,13 +23,13 @@ public class calculadora {
 	}
 
 	public static long fatorial(double num) {
-		int fatorial = 1;
+		int total = 1;
 
 		for (int i = 1; i <= num; i++) {
-			fatorial *= i;
+			total *= i;
 		}
 
-		return fatorial;
+		return total;
 	}
 
 }
