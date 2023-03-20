@@ -6,8 +6,9 @@ public class exer01 {
 		
 		
 		for (int i=0; i<10; i++) {
-		System.out.print(calculadora.fibonacci(i) + ", ");
+		System.out.println(Calculadora.fibonacci(i) + ", ");
 		}
+		
 	}
 
 }

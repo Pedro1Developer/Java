@@ -1,6 +1,6 @@
 package com.pedro.cursojava.aula35.labs;
 
-public class fibonacci {
+public class Calculadora {
 	
 	public static int nesimo(int n, int qtd, int valor1, int valor2, int valorF) {
 

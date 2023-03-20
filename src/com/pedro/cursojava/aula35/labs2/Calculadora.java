@@ -1,6 +1,6 @@
 package com.pedro.cursojava.aula35.labs2;
 
-public class calculadora {
+public class Calculadora {
 	
 	public static int fibonacci(int num) {
 		
@@ -9,6 +9,15 @@ public class calculadora {
 		}
 		
 		return fibonacci(num - 1) + fibonacci(num - 2);
+	}
+	
+	public static int somatorio(int num) {
+		
+		if (num == 1){
+			return 1;
+		}
+		
+		return num + somatorio(num-1);
 	}
 
 }
