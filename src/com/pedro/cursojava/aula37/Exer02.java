@@ -8,10 +8,12 @@ public class Exer02 {
 		
 		Professor professor = new Professor();
 		
-		aluno.getNome();
-		professor.getNome();
+		aluno.setNome("Pedro");
 		
-		//Wow
+		professor.setNome("João");
+		
+		System.out.println("Nome do aluno: " + aluno.getNome());
+		System.out.println("Nome do professor: " + professor.getNome());
 		
 	}
 
