@@ -1,38 +1,12 @@
 package com.pedro.cursojava.aula37;
 
-public class Professor {
+public class Professor extends Pessoa{
 	
-	private String nome;
-	private String endereco;
-	private String telefone;
-	private String cpf;
+	
 	private String departamento;
 	private String nomeCurso;
 	private String salario;
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public String getEndereco() {
-		return endereco;
-	}
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
-	}
-	public String getTelefone() {
-		return telefone;
-	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
-	}
-	public String getCpf() {
-		return cpf;
-	}
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
+	
 	public String getDepartamento() {
 		return departamento;
 	}
@@ -50,6 +24,10 @@ public class Professor {
 	}
 	public void setSalario(String salario) {
 		this.salario = salario;
+	}
+	
+	public double calcularSalarioLiquido() {
+		return 0;
 	}
 	
 }
