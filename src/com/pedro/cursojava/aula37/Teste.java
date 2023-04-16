@@ -1,6 +1,6 @@
 package com.pedro.cursojava.aula37;
 
-public class Exer02 {
+public class Teste {
 	
 	public static void main(String[] args) {
 		

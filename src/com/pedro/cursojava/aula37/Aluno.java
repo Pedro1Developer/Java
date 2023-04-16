@@ -25,5 +25,9 @@ public class Aluno extends Pessoa {
 	public boolean verificarAprovado() {
 		return true;
 	}
+	
+	public void metodoQualquer() {
+		this.getNome();
+	}
 
 }
