@@ -7,6 +7,12 @@ public class Pessoa {
 	private String telefone;
 	private String cpf;
 	
+	protected String acessoNome;
+	
+	public void setAcessoNome(String acessoNome) {
+		this.acessoNome = acessoNome;
+	}
+
 	public Pessoa() {
 	}
 	

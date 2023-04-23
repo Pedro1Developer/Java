@@ -25,4 +25,12 @@ public class TesteOrdem {
 		this.z = z;
 	}
 	
+	public void metodo2() {
+		metodo1();
+	}
+	
+	private void metodo1() {
+		
+	}
+	
 }
