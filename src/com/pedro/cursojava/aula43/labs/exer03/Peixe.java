@@ -19,7 +19,7 @@ public class Peixe extends Animal {
 
 	@Override
 	public String toString() {
-		return super.toString() + "caracteristicas= " + caracteristicas + "]";
+		return super.toString() + "Características: " + caracteristicas;
 	}
 
 }

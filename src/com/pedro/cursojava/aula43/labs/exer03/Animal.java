@@ -63,8 +63,8 @@ public class Animal {
 
 	@Override
 	public String toString() {
-		return "Animal: [nome= " + nome + "; comprimento= " + comprimento + "; quantidade de patas= " + patas + ";\ncor= "
-				+ cor + "; ambiente= " + ambiente + "; velocidade= " + velocidade + "; ";
+		return "Animal: " + nome + "\nComprimento: " + comprimento + "\nQuantidade de patas: " + patas + "\nCor: " + cor
+				+ "\nAmbiente: " + ambiente + "\nVelocidade: " + velocidade + "\n";
 	}
 
 }
