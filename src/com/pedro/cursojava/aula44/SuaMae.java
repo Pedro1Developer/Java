@@ -1,6 +1,6 @@
 package com.pedro.cursojava.aula44;
 
-public class Baleia extends Mamifero{
+public class SuaMae extends Mamifero{
 
 	@Override
 	public void amamentar() {
