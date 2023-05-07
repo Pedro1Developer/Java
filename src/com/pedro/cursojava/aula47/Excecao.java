@@ -14,7 +14,7 @@ public class Excecao {
 			System.out.println("Este texto não será impresso");
 
 		} catch (ArrayIndexOutOfBoundsException exception) {
-			System.out.println("Exceção/erro ao acessar um indíce/posição que não existe no vetor");
+			System.out.println("Exceção ao acessar um indíce/posição que não existe no vetor");
 		}
 		
 		System.out.println("Este texto será impresso");
