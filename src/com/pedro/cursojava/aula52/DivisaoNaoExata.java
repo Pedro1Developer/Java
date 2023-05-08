@@ -1,7 +1,7 @@
 package com.pedro.cursojava.aula52;
 
 public class DivisaoNaoExata extends Exception{
-	
+		
 		private int num;
 		private int dem;
 		

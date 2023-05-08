@@ -1,9 +1,9 @@
 package com.pedro.cursojava.aula52;
 
 public class CriandoMinhaException {
-
+    
 	public static void main(String[] args) {
-
+		
 		try {
 			teste();
 		} catch (DivisaoNaoExata e) {
