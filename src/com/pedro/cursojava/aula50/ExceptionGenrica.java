@@ -12,7 +12,7 @@ public class ExceptionGenrica {
 				System.out.println(numeros[i] + " / " + denominadores[i] + " = " + (numeros[i] / denominadores[i]));
 			} catch (Exception exc) {
 				System.out.println(exc.getMessage());
-				exc.getStackTrace();
+				exc.printStackTrace();
 			}
 		}
 
